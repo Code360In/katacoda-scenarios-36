@@ -55,16 +55,8 @@
     "assets": {
       "host01": [
         {
-          "file": "package.json",
+          "file": "*",
           "target": "/root/app"
-        },
-        {
-          "file": "tsconfig.json",
-          "target": "/root/app"
-        },
-        {
-          "file": "server/*",
-          "target": "/root/app/server"
         }
       ]
     }
