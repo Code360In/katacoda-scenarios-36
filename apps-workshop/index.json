@@ -51,23 +51,23 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "package.json",
+          "target": "/root/app"
+        },
+        {
+          "file": "tsconfig.json",
+          "target": "/root/app"
+        },
+        {
+          "file": "server/*",
+          "target": "/root/app/server"
+        }
+      ]
     }
-  },
-  "assets": {
-    "host01": [
-      {
-        "file": "package.json",
-        "target": "/root/app"
-      },
-      {
-        "file": "tsconfig.json",
-        "target": "/root/app"
-      },
-      {
-        "file": "server/*",
-        "target": "/root/app/server"
-      }
-    ]
   },
   "environment": {
     "uilayout": "terminal",
