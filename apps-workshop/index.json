@@ -53,9 +53,22 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "host01": [
+      {
+        "file": "package.json",
+        "target": "/root/app"
+      },
+      {
+        "file": "tsconfig.json",
+        "target": "/root/app"
+      }
+    ]
+  },
   "environment": {
     "uilayout": "terminal",
     "showide": true,
+    "showdashboard": true,
     "ide": "ssh host01 '/opt/start-vscode.sh /root/k8s-yaml-files' ",
     "idePort": 23000,
     "dashboards": [{ "name": "app", "port": 3000 }]
