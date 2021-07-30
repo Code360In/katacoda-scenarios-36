@@ -1,5 +1,7 @@
-# Start the server
+# Install the app libraries
 
-`yarn install`{{execute}}
+`cd app; yarn install`{{execute}}
 
-# Start
+# Start the app dev environment
+
+`yarn start`{{execute}}
