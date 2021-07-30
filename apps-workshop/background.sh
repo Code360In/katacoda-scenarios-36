@@ -1,1 +1,3 @@
-cd server; yarn install; node index.js
+cd $HOME/app/server
+yarn install
+node index.js
