@@ -1,0 +1,1 @@
+cd server; yarn install; node index.js
