@@ -31,8 +31,7 @@
     "showide": true,
     "showdashboard": true,
     "ide": "ssh host01 '/opt/start-vscode.sh /root/k8s-yaml-files' ",
-    "idePort": 23000,
-    "dashboards": [{ "name": "app", "port": 3000 }]
+    "idePort": 23000
   },
   "backend": {
     "imageid": "ubuntu:2004"
