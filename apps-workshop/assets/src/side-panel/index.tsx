@@ -37,6 +37,7 @@ export default function SidePanel() {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+
       }}
     >
       <div className="container">

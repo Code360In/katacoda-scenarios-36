@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "What is an app",
         "text": "step1.md"
+      },
+      {
+        "title": "Setting up your dev environment",
+        "text": "step2.md"
       }
     ],
     "intro": {
