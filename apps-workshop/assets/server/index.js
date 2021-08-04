@@ -4,7 +4,8 @@ const {
   setRateLimit,
   getBlockList,
   getRateLimit,
-} = require("./metrics.js");
+} = require("./telemetry.js");
+const { getTweets, postTweet } = require("./tweets.js");
 
 const express = require("express");
 var cors = require("cors");
@@ -54,6 +55,27 @@ app.post("/limits", (req, res) => {
 
   setRateLimit(value);
   res.send("");
+});
+
+// STATUS STREAM
+app.get("/tweets", async (req, res) => {
+  const tweets = await getTweets();
+
+  res.json({
+    tweets,
+  });
+});
+
+app.post("/tweets", (req, res) => {
+  let data = req.body;
+  postTweet({
+    author: data.author,
+    text: data.text,
+  });
+
+  res.json({
+    success: true,
+  });
 });
 
 // START LISTENING
