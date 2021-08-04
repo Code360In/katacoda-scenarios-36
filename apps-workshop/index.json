@@ -6,31 +6,24 @@
   "details": {
     "steps": [
       {
-        "title": "Learning about apps",
         "text": "step1_product.md"
       },
       {
-        "title": "Setting up your dev environment",
         "text": "step2_dd_apps.md"
       },
       {
-        "title": "",
         "text": "step3_devenv.md"
       },
       {
-        "title": "",
         "text": "step4_widget.md"
       },
       {
-        "title": "",
         "text": "step5_api.md"
       },
       {
-        "title": "",
         "text": "step6_sidepanel.md"
       },
       {
-        "title": "",
         "text": "step7_context_menu.md"
       }
     ],
