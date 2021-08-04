@@ -6,7 +6,7 @@ You shuold be able to see metrics in [this notebook](https://app.datadoghq.com/m
 
 <iframe src="https://a.cl.ly/Wnu0zK90?embed=true" width="575" height="400" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" data-frame-src="https://a.cl.ly/Wnu0zK90?embed=true" style="border: none;"></iframe>
 
-#### Install the app libraries\*\*
+#### Install the app libraries
 
 `cd app; yarn install`{{execute}}
 
