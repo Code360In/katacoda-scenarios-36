@@ -1,9 +1,9 @@
 # Build the demo UI
-cd $HOME/app/server/demo-ui
+cd $HOME/app/api-service/demo-ui
 yarn install
 yarn build
 
 # Run the api service
-cd $HOME/app/server
+cd $HOME/app/api-service
 yarn install
 node index.js
