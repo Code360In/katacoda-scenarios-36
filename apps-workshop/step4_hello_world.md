@@ -2,11 +2,11 @@
 
 - Install the app libraries
 
-`cd app/admin-ui; yarn install`{{execute}}
+`cd app/admin-ui; yarn install`{{execute T2}}
 
 - Start the app dev environment
 
-`yarn start`{{execute}}
+`yarn start`{{execute T2}}
 
 - Preview your app
 
