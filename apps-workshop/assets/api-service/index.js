@@ -78,6 +78,12 @@ app.post("/tweets", (req, res) => {
   });
 });
 
+// app.get("/", function(req, res) {
+//   res.sendFile(path.join(__dirname, "/index.html"));
+// });
+
+app.use(express.static("demo-ui/build"));
+
 // START LISTENING
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);

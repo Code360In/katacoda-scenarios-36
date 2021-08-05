@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import setup from "./controller";
 import SidePanel from "./side-panel";
-import TweetStream from "./tweet-stream";
 import Widget from "./widget";
 
 const getContent = () => {
@@ -14,9 +13,6 @@ const getContent = () => {
     }
     case "/panel": {
       return <SidePanel />;
-    }
-    case "/tweets": {
-      return <TweetStream />;
     }
     default: {
       setup();
