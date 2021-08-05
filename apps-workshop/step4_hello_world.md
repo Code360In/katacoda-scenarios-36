@@ -2,7 +2,7 @@
 
 **Install the app libraries**
 
-`cd app; yarn install`{{execute}}
+`cd app/admin-ui; yarn install`{{execute}}
 
 **Start the app dev environment**
 
