@@ -1,6 +1,4 @@
-## Setting up our dev environment
-
-**Logging in our Datadog account**
+## Logging in our Datadog account
 
 You shuold be able to see 2 metrics:
 
