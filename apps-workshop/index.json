@@ -15,16 +15,19 @@
         "text": "step3_devenv.md"
       },
       {
-        "text": "step4_widget.md"
+        "text": "step4_hello_world.md"
       },
       {
-        "text": "step5_api.md"
+        "text": "step5_widget.md"
       },
       {
-        "text": "step6_sidepanel.md"
+        "text": "step6_api.md"
       },
       {
-        "text": "step7_context_menu.md"
+        "text": "step7_sidepanel.md"
+      },
+      {
+        "text": "step8_context_menu.md"
       }
     ],
     "intro": {
