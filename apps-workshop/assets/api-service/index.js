@@ -6,6 +6,7 @@ const {
   getRateLimit,
 } = require("./telemetry.js");
 const { createDashboard } = require("./dashboard.js");
+const { createAppEntry } = require("./app-entry.js");
 const { getTweets, postTweet } = require("./tweets.js");
 const { v1 } = require("@datadog/datadog-api-client");
 
@@ -24,6 +25,7 @@ app.use(
 const configuration = v1.createConfiguration();
 startMetricSubmission(configuration);
 createDashboard(configuration);
+createAppEntry(configuration);
 
 // FEATURE 1
 // BLOCKLIST ACTIONS
