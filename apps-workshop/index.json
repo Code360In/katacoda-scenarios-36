@@ -6,10 +6,10 @@
   "details": {
     "steps": [
       {
-        "text": "step1_product.md"
+        "text": "step1_dd_apps.md"
       },
       {
-        "text": "step2_dd_apps.md"
+        "text": "step2_product.md"
       },
       {
         "text": "step3_devenv.md"

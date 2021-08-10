@@ -2,10 +2,9 @@ const { v1 } = require("@datadog/datadog-api-client");
 
 let submissionRoutine = null;
 let globalRateLimit = 100;
+let apiInstance = null;
 
 const INTERVAL = 3000;
-const configuration = v1.createConfiguration();
-const apiInstance = new v1.MetricsApi(configuration);
 
 const users = [
   // Posting too many tweets
@@ -83,10 +82,11 @@ const submitPoints = () => {
   });
 };
 
-exports.startMetricSubmission = () => {
+exports.startMetricSubmission = (configuration) => {
   if (submissionRoutine) {
     return;
   }
+  apiInstance = new v1.MetricsApi(configuration);
   submissionRoutine = setInterval(submitPoints, INTERVAL);
 };
 
