@@ -103,4 +103,5 @@ exports.createDashboard = async function(configuration) {
       reflowType: "fixed",
     },
   });
+  console.log("Created a new dashboard:", newDash);
 };
